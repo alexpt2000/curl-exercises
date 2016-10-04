@@ -24,8 +24,10 @@ curl -L -H "Accept: application/json" "http://duckduckgo.com/?q=gmit&format=json
 
 
 Task 6 
-
 curl -o bootstrap.min.js https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+
 curl -o bootstrap.min.css https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+
 python -m http.server
+
 http://localhost:8000/
